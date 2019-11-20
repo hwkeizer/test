@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target name="test">
+	<locations>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+			<repository location="http://download.eclipse.org/efxclipse/runtime-nightly/site"/>
+			<unit id="org.eclipse.fx.runtime.min.feature.feature.group" version="3.6.1.201909200822"/>
+			<unit id="org.eclipse.fx.target.feature.feature.group" version="3.6.1.201909200827"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+			<repository location="http://downloads.efxclipse.bestsolution.at/p2-repos/openjfx-11/repository/"/>
+			<unit id="openjfx.standard.feature.feature.group" version="11.0.0.201901231300"/>
+		</location>
+	</locations>
+</target>

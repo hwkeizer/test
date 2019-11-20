@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_4BNSkAuqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.application" bindingContexts="_4BMrgAuqEeqqiMRzu7Tu6A">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_cxuNAAurEeqqiMRzu7Tu6A" elementId="test.app.trimmedwindow.main" x="1000" y="10" width="600" height="400">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_wkFSUAutEeqqiMRzu7Tu6A" elementId="test.app.partsashcontainer.main" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_5qlj0AutEeqqiMRzu7Tu6A" elementId="test.app.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="__3vpoAutEeqqiMRzu7Tu6A" elementId="test.app.part.overview" label="Overview"/>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_8SdlAAutEeqqiMRzu7Tu6A" elementId="test.app.partsashcontainer.0">
+        <children xsi:type="basic:PartStack" xmi:id="_9IhqUAutEeqqiMRzu7Tu6A" elementId="test.app.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_F-Gj4AuuEeqqiMRzu7Tu6A" elementId="test.app.part.details" contributionURI="bundleclass://test.app/test.DetailsPart" label="Details">
+            <tags>Container:GridPane</tags>
+          </children>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_92s-8AutEeqqiMRzu7Tu6A" elementId="test.app.partstack.2">
+          <children xsi:type="basic:Part" xmi:id="_IeNwMAuuEeqqiMRzu7Tu6A" elementId="test.app.part.playground" label="Playground"/>
+        </children>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_4BMrgAuqEeqqiMRzu7Tu6A" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_4BNSkQuqEeqqiMRzu7Tu6A" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_4BNSkguqEeqqiMRzu7Tu6A" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_4BNSkwuqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_4BNSlAuqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_4BNSlQuqEeqqiMRzu7Tu6A" elementId="org.eclipse.fx.ui.keybindings.e4.service" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_4BNSlguqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_4BNSlwuqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_4BNSmAuqEeqqiMRzu7Tu6A" elementId="org.eclipse.fx.ui.keybindings.e4.model" contributionURI="bundleclass://org.eclipse.fx.ui.keybindings.e4/org.eclipse.fx.ui.keybindings.e4.BindingProcessingAddon"/>
+  <addons xmi:id="_4BNSmQuqEeqqiMRzu7Tu6A" elementId="org.eclipse.e4.ui.workbench.addons.HandlerProcessingAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
