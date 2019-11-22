@@ -70,9 +70,9 @@
 					<pomDependencies>consider</pomDependencies>
 					<environments>
 						<environment>
-							<os>noenv</os>
-							<ws>noenv</ws>
-							<arch>noenv</arch>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
 						</environment>
 					</environments>
 				</configuration>
